@@ -9,6 +9,9 @@ import {
   // gql,
 } from '@apollo/client'
 
+// Hasura backend
+// https://react-todo-graphql-online.herokuapp.com/console
+
 const client = new ApolloClient({
   uri: 'https://react-todo-graphql-online.herokuapp.com/v1/graphql',
   cache: new InMemoryCache(),
